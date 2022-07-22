@@ -54,10 +54,10 @@ section h1{
 section h1 span{
     color:var(--prim-violet);
 }
-section .content{
+section .container{
     margin-right: 32px;
 }
-section .lead{
+section .information{
     line-height: 24px;
     margin-bottom: 80px;
 }
@@ -104,7 +104,7 @@ section ul p{
                 height: 220px; 
                 width: 300px; 
                 border-radius: 10px 10px 0 0; 
-                background: url(images/image-header-mobile.jpg) no-repeat; 
+                background: url(images/image-header-mobile.jpg); 
                 background-size: contain;
              }
     
