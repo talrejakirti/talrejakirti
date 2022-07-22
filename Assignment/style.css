@@ -67,9 +67,7 @@ section ul{
     justify-content: space-between;
     letter-spacing: 1px;
 }
-section ul h2{
-    color: var(--neu-white);
-}
+
 section ul p{
     font-family: "Lexend Deca";
     color: var(--neu-more-trans-white);
