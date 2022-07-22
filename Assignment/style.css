@@ -84,16 +84,8 @@ section ul p{
 }
 
 
-@media only screen and(max-width: 1024px){
-    :root{
-        font-size: 12px;
-    }
-    section {
-        padding: 3em 4.5em 3em 3em;
-    }
-    
-    }
-@media only screen and(max-width: 625px){
+
+@media only screen and(max-width: 375px){
     
     body { 
         flex-direction: column; } 
@@ -107,24 +99,7 @@ section ul p{
                 padding: 3em; 
                 width: 300px; 
                 border-radius: 0 0 10px 10px; }
-            section h1, section .lead { 
-                text-align: center; } 
-            section .lead { font-size: 1.1rem; 
-                margin-bottom: 2em; 
-                line-height: 1.75em; } 
-            section .content { 
-                margin-right: 0; } 
-            section ul { 
-                flex-direction: column; 
-                align-items: center; } 
-            section ul li { 
-                margin-bottom: 2em; } 
-            section ul h2 { 
-                font-size: 2rem; 
-                text-align: center; 
-                margin-bottom: 0.25em; } 
-            section ul p { 
-                font-size: 1.05rem; } 
+            
         .bg-img { 
                 height: 220px; 
                 width: 300px; 
