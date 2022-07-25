@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary:#5c5f6e;
+    --secondary: #f583a7;
+}
+body{
+        background-image: url("bg.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;   
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    width: 600px;
+    background-color: rgba(255,255, 255,0.3);
+    margin: 10px
+}
+.quote{
+    text-align: center;
+    font-style: italic;
+    color: var(--primary);
+}
+.author{
+    color: rgb(99, 83, 71);
+    font-size: 20px;
+    font-style: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    margin: 10px 0;
+    width: 60%;
+    border: 1px solid#364ba788;
+}
+button{
+    width:22%;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    margin-top: 8px;
+    cursor: pointer;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: rgb(199, 190, 177);
+    padding: 5px;
+    border-radius: 2px;
+}
+
